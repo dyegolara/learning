@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8" />
+	<title>Ciclos</title>
+	<script type="text/javascript">
+
+        var num, res, c, t, b, calc, n;
+    function calcular() {
+        var num = parseInt(t.value);
+        calc = 1;
+        n = 1;
+        while(n <= num) {
+            calc = calc * n;
+            n+=1;
+        }
+        c.innerHTML = "<strong>" + calc + "</strong>";
+    }
+	function inicio() {
+        c = document.getElementById("caja");
+        t = document.getElementById("alejandra");
+        b = document.getElementById("boton");
+        b.addEventListener("mouseover", calcular);
+	}
+	</script>
+</head>
+<body>
+    <input type="text" id="alejandra"/>
+    <input type="button" id="boton" value="Tocame~"/>
+	<div id = "caja">Nada</div>
+	<div>Otra caja</div>
+	<script type="text/javascript">
+	inicio();
+	</script>
+</body>
+</html>
