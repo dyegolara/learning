@@ -1,0 +1,29 @@
+/* Layout.css */
+
+header,
+footer {
+    color: #c3c1c1;
+    background-color: #282828;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header img {
+    width: 300px;
+    display: block;
+}
+.layout_a {
+    color: #c3c1c1;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
