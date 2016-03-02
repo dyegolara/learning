@@ -14,10 +14,11 @@
 }
 .boton_a {
     color: white;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     width: 100%;
+
 }
 
 .boton:hover {

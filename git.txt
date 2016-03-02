@@ -1,0 +1,13 @@
+git init
+
+git add -A
+
+/*git status
+
+git commit -m "notes"
+
+git remote add origin https://github.com/dyegolara/learning.git  
+// git remote
+
+git -u push origin master
+// git push origin https://github.com/dyegolara/learning.git 
