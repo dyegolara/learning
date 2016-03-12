@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset = "utf-8" />
-	<title>Factoriales</title>
+	<title>Ciclos</title>
 	<script type="text/javascript">
 
         var num, res, c, t, b, calc, n;

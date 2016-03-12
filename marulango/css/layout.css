@@ -13,7 +13,7 @@ footer {
     text-transform: uppercase;
 }
 header img {
-    width: 300px;
+    width: 250px;
     display: block;
 }
 .layout_a {
@@ -26,4 +26,14 @@ header {
 
 footer {
     bottom: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.float {
+    display: inline;
+    max-width: 15%;
+
 }
