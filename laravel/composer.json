@@ -1,0 +1,17 @@
+{
+    "name": "dyegolara/laravel",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Lara",
+            "email": "dyegolara@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PlatziPHP\\": "src/"
+        }
+    }
+}
