@@ -1,3 +1,4 @@
+/*jslint devel: true*/
 function Director() {
     "use strict";
     this.construct = function (builder) {
